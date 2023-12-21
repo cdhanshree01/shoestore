@@ -1,0 +1,93 @@
+/* Choose a limited color palette with 2-3 primary colors and shades */
+
+/* Adjust width based on container or viewport */
+.cart-items {
+    margin: 30px auto;
+    width: 70%; /* Example, adjust as needed */
+    background-color: #f0f2f5; /* Light gray background */
+    border: 1px solid #ddd; /* Subtle border */
+    border-radius: 5px;
+    padding: 20px;
+  }
+  
+  /* Adapt border and colors to match palette */
+  .cart-items-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+  }
+  
+  /* Use max-width for image adaptation */
+  .cart_items-image {
+    max-width: 80px;
+    height: auto;
+    border: 1px solid #ddd;
+    margin-right: 10px;
+  }
+  
+  /* Improve readability with adjusted font family and size */
+  .cart-items-list,
+  .cart-items-name,
+  .cart-items-function {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    font-weight: normal;
+    font-family: Helvetica Neue ;
+    font-size: 14px;
+  }
+  
+  /* Maintain button design while adjusting color */
+  .cart-items-add,
+  .cart-items-remove {
+    width: 30px;
+    height: 30px;
+    margin-right: 15px;
+    font-weight: bold;
+    border: none;
+    border-radius: 50%;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .cart-items-add {
+    background-color: #ff696b; /* Adjust to primary color */
+  }
+  
+  .cart-items-remove {
+    background-color: #28a745; /* Adjust to secondary color */
+  }
+  
+  /* Adjust styles for empty cart message */
+  .cart-items-empty {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 20px 0;
+    color: #999;
+  }
+  
+  /* Adjust button color to match palette */
+  .clear-cart-button {
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    width: 100px;
+    font-size: 14px;
+    color: #28a745; /* Use secondary color */
+    cursor: pointer;
+  }
+  
+  .clear-cart-button:hover {
+    background-color: rgba(40, 167, 69, 0.8); /* Adjust hover color shade */
+  }
+  

@@ -1,0 +1,60 @@
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  margin-top: 20px; /* Add margin at the top to create space after the header */
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+label {
+  margin-bottom: 5px;
+  color: #333;
+}
+
+input {
+  width: 100%;
+  padding: 12px; /* Keep the same padding for all input fields */
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  background-color: black;
+  color: #fff;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+p {
+  color: white;
+  margin-top: 5px;
+}
+
+.alert {
+  color: #dc3545;
+  margin-top: 15px;
+}
+
+.content {
+  padding-top: 20px; /* Add padding to create space after the header */
+  /* Other styles for your content */
+}

@@ -1,0 +1,29 @@
+/* Styles for wrapper and content */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Footer styles */
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #333;
+  color: #fff;
+  padding: 3px 0;
+  text-align: center;
+}
+.wrapper {
+  min-height: calc(100vh - 60px); /* Adjust 60px to match your footer's height */
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  flex: 1;
+}
